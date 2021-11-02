@@ -4,7 +4,7 @@
 #include <string.h>
  
 #define SIZE 30
- 
+// SIZE global value 30 
 // Function to convert the string to lowercase
 void toLowerCase(char plain[], int ps)
 {
@@ -157,7 +157,7 @@ void encryptByPlayfairCipher(char str[], char key[])
     encrypt(str, keyT, ps);
 }
  
-// Driver code
+// Driver code(main function)
 int main()
 {
     char str[SIZE], key[SIZE];
